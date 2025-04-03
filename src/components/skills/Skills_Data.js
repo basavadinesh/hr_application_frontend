@@ -1,0 +1,1 @@
+export const  SkillsData  = ['Java', 'React', 'Angular', 'DotNET', 'Python', 'AWS', 'Azure', 'Nodejs'];

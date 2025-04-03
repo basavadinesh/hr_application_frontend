@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.border_card {
+    border: none;
+}
+.card {
+    background-color: none;
+}
+input.form-control {
+    width: 100%;
+    height: 48px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: solid 0.2px;
+    border-color: #dfdcdc;
+    margin-left: 0px;
+}
+h3 {
+    text-align: left;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #0070ac;
+    font-size: 20px;
+    margin-left: 0;
+}
+.icon {
+    left: 350px;
+    top: -55px;
+    position: relative;
+}
+.icon1 {
+    left: 380px;
+    top: -35px;
+    position: relative;
+}
+
+h2 {
+    text-align: left;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #0070ac;
+    font-size: 30px;
+}
+
+.login {
+    background-color: white;
+    width: 460px;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom: 200%;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+label {
+    margin-left: 5px;
+    font-size: 15px;
+    color: #cec7c7;
+    margin-bottom: -20;
+}
+.resetpassword {
+    background-color: white;
+    width: 460px;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom: 200%;
+    padding: 20px;
+    border-radius: 7px;
+}
+.btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 25px;
+    background-color: #0070ac;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.forgotpassword {
+    background-color: white;
+    width: 460px;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom: 200%;
+    padding: 20px;
+    border-radius: 7px;
+}
+.reqemail {
+    background-color: white;
+    width: 460px;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom: 200%;
+    padding: 20px;
+    border-radius: 7px;
+}
+.btn1 {
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #0070ac;
+    color: white;
+    font-size: 18px;
+    border: solid 0.2px;
+    font-weight: bold;
+}
+
+.formcontrol {
+    margin-left: 84px;
+    position: absolute;
+    top: 7px;
+    /* position: relative; */
+    display: block;
+    width: 4%;
+}
+.entries {
+    position: absolute;
+    top: 11px;
+    margin-left: 132px;
+}
+.show {
+    position: absolute;
+    top: 11px;
+    margin-left: 37px;
+}
+.remlabel {
+    margin-left: -3px;
+    font-size: 15px;
+    color: #cec7c7;
+    margin-bottom: -20;
+}
+.checkboxcss {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: -22px;
+    margin-left: -151px;
+    /* right: 220px; */
+    /* top: 333px; */
+    height: 20px;
+}
+.remdiv {
+    margin-left: 10px;
+}
+/* .row{
+  margin-left: -21px;
+} */
+.btn:disabled {
+    background-color: lightblue;
+}
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: 0px;
+}
+/* ::-webkit-scrollbar {
+    position: fixed;
+    display: none;
+} */
+.loginimage {
+    float: left;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 60%;
+}

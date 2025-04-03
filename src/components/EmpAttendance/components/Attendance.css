@@ -1,0 +1,42 @@
+* {
+    margin: auto;
+    padding: 0;
+    margin: 0;
+      font-family: "Raleway", sans-serif;
+      /* overflow: hidden; */
+  }
+  body{
+      overflow: hidden;
+  }
+.background{
+    background-color: rgb(243,244,244);
+    height: 103px;
+    margin: 0px -16px 7px -17px;
+}
+.checkin{
+    background-color: rgb(0,112,172);
+    color: white;
+    border: none;
+    height: 37px;
+    /* margin-left: 30px; */
+    width: 105px;
+    border-radius: 19px;
+    margin-top: 7px;
+}
+.checkout{
+    margin-left: 20px;
+    width: 105px;
+    border-radius: 19px;
+    height: 37px;
+    border: 1px solid rgb(38,133,184);
+    color: rgb(38,133,184);
+    background-color: white;
+}
+.tablecardscroll{
+    overflow-y:scroll;
+    height: 150px;
+}
+.gridscrollbar{
+    overflow-y:scroll;
+     height: 313px;
+}

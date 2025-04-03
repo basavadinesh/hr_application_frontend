@@ -1,0 +1,14 @@
+.ensarlogo_styles{
+    position: absolute;
+    top:0px
+}
+.admin{
+    color:red;
+}
+.ensarlogo {
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 256px;
+}

@@ -1,0 +1,140 @@
+/* Style for invalid input fields */
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:invalid {
+    box-shadow: none;
+    text-transform: uppercase;
+}
+
+/* Flexbox container for image display */
+.image {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adjust gap between elements as needed */
+}
+
+/* Style for the image inside the 'choose file' button */
+.imgchoosefile {
+    width: 25px; /* Set image width */
+    height: 25px; /* Set image height */
+    object-fit: cover; /* Ensure image fits within its box */
+    border-radius: 50%; /* Make the image circular */
+}
+
+/* Flexbox for employee name display with ellipsis for overflow text */
+.employee-name {
+    flex: 1; /* Make the name take up available space */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+}
+
+/* Style for the Card header */
+.css-185gdzj-MuiCardHeader-root {
+    background-color: #deecf4; /* Set background color for card header */
+}
+
+/* Typography color for heading text */
+.css-1qvr50w-MuiTypography-root {
+    color: #0070ac; /* Set text color */
+}
+
+/* Button background color */
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #0070ac; /* Set button background color */
+}
+
+/* Link style for employee-related elements */
+.employee-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer; /* Change cursor on hover */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+}
+
+/* Hover effect for employee link */
+.employee-link:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+
+/* Employee image inside link */
+.employee-image {
+    margin-right: 10px; /* Spacing to the right of the image */
+    width: 40px; /* Image width */
+    height: 40px; /* Image height */
+    border-radius: 50%; /* Circular image */
+    transition: transform 0.3s ease; /* Smooth scale effect on hover */
+}
+
+/* Transition color of employee name on hover */
+.employee-name {
+    transition: color 0.3s ease; /* Smooth color change */
+}
+
+/* Scale the employee image on hover */
+.employee-link:hover .employee-image {
+    transform: scale(1.1); /* Slightly enlarge image */
+}
+
+/* Change color of employee name on hover */
+.employee-link:hover .employee-name {
+    color: #007bff; /* Set new color on hover */
+}
+
+/* General styles for the modal card */
+.modal-card {
+    width: 400px; /* Set modal width */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 16px; /* Padding around content */
+}
+
+/* Styles for the modal header */
+.modal-header {
+    background-color: #deecf4; /* Header background color */
+    padding: 16px; /* Padding for the header */
+    font-size: 18px; /* Font size for header text */
+    font-weight: bold; /* Bold header text */
+    color: #0070ac; /* Header text color */
+    display: flex;
+    justify-content: space-between; /* Align title and close button */
+    align-items: center; /* Center items vertically */
+}
+
+/* Close button inside the modal */
+.modal-close-button {
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Text field full width inside the modal */
+.modal-text-field {
+    width: 100%; /* Make text fields take full width */
+    margin-bottom: 16px; /* Space between fields */
+}
+
+/* Style for the 'Submit' button */
+.submit-button {
+    background-color: #0070ac; /* Button color */
+    color: white; /* Button text color */
+    border-radius: 40px; /* Rounded button */
+    padding: 10px 24px; /* Button padding */
+    margin-right: 16px; /* Spacing between buttons */
+}
+
+/* Style for the 'Cancel' button */
+.cancel-button {
+    background-color: #e0e0e0; /* Button background color */
+    color: #000; /* Button text color */
+    border-radius: 40px; /* Rounded button */
+    padding: 10px 24px; /* Button padding */
+}
+
+/* Hover effect for buttons */
+.submit-button:hover {
+    background-color: #005f8d; /* Darker color on hover */
+}
+
+.cancel-button:hover {
+    background-color: #cfcfcf; /* Slightly darker color on hover */
+}

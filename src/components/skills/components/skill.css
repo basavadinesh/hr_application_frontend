@@ -1,0 +1,43 @@
+
+.css-185gdzj-MuiCardHeader-root{
+    background-color:#DEECF4
+}
+   .css-1qvr50w-MuiTypography-root{
+color:#0070AC
+ } 
+ .css-sghohy-MuiButtonBase-root-MuiButton-root{
+   background-color:#0070AC
+   
+} 
+.search-container {
+   width: 280px;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .dropdown {
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   border: px solid gray;
+   margin-left: 30px;
+ }
+ 
+ .dropdown:empty {
+   border: none;
+ }
+ 
+ .dropdown-row {
+   cursor: pointer;
+   text-align: start;
+   margin: 2px 0;
+ }
+ 
+ input {
+   width: 220px;
+ }
+ 
+ .search-inner {
+   display: flex;
+ }
+ 

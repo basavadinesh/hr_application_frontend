@@ -1,0 +1,67 @@
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:invalid {
+    box-shadow: none;
+    text-transform: uppercase;
+}
+.image {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adjust as needed */
+}
+
+.imgchoosefile {
+    width: 25px; /* Adjust size as needed */
+    height: 25px; /* Adjust size as needed */
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.employee-name {
+    flex: 1; /* Allow the text to take up remaining space */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflowing text */
+    text-overflow: ellipsis; /* Show ellipsis for overflow */
+}
+.css-185gdzj-MuiCardHeader-root {
+    background-color: #deecf4;
+}
+.css-1qvr50w-MuiTypography-root {
+    color: #0070ac;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #0070ac;
+}
+
+.employee-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.employee-link:hover {
+    background-color: #f0f0f0;
+}
+
+.employee-image {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.employee-name {
+    transition: color 0.3s ease;
+}
+
+.employee-link:hover .employee-image {
+    transform: scale(1.1);
+}
+
+.employee-link:hover .employee-name {
+    color: #007bff;
+}
+
